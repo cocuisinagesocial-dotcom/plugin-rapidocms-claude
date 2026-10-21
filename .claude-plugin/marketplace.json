@@ -3,6 +3,7 @@
   "owner": {
     "name": "BraindCode"
   },
+  "description": "Plugins Claude BraindCode pour RapidoCMS : création, programmation et suivi de publications sur Instagram, Facebook, LinkedIn et TikTok.",
   "plugins": [
     {
       "name": "rapidocms-publisher",
