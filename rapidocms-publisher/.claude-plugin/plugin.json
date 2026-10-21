@@ -1,5 +1,6 @@
 {
   "name": "rapidocms-publisher",
+  "displayName": "RapidoCMS Publisher",
   "version": "1.0.0",
   "description": "Publication sur les réseaux sociaux avec RapidoCMS : rédaction adaptée à chaque réseau, médias, brouillons, programmation, calendrier et statistiques.",
   "author": {
@@ -12,6 +13,6 @@
   "privacyPolicyUrl": "https://rapidocms.com/confidentialite",
   "termsOfServiceUrl": "https://rapidocms.com/cgu",
   "license": "MIT",
-  "icon": ".claude-plugin/icon.png",
+  "icon": "./.claude-plugin/icon.png",
   "keywords": ["rapidocms", "social-media", "instagram", "facebook", "linkedin", "tiktok", "publication"]
 }
