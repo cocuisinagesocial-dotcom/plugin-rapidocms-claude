@@ -5,7 +5,7 @@ description: Publier ou programmer un post sur Instagram, Facebook, LinkedIn ou 
 
 # Publier avec RapidoCMS
 
-Ce skill s'appuie sur les outils du serveur MCP **RapidoCMS** (gestion de contenu et de réseaux sociaux). Les noms exacts des outils sont préfixés par l'identifiant du connecteur (`mcp__<id>__create_draft_tool`, etc.) : utilise ceux qui sont disponibles dans la session. Si aucun outil RapidoCMS n'est disponible, dis-le à l'utilisateur et demande-lui de connecter le connecteur RapidoCMS (claude.ai → Paramètres → Connecteurs), puis arrête-toi.
+Ce skill s'appuie sur les outils du serveur MCP **RapidoCMS** (`https://cms.rapidosoftware.com/claude`), fourni par ce plugin sous le nom `rapidocms` (outils `mcp__plugin_rapidocms-publisher_rapidocms__create_draft_tool`, etc.). Si le connecteur claude.ai RapidoCMS est aussi actif, ses outils (`mcp__<id>__create_draft_tool`) sont équivalents : utilise ceux qui sont disponibles. Si aucun outil RapidoCMS n'est disponible ou si l'authentification est demandée, dis à l'utilisateur de lancer `/mcp`, de choisir `rapidocms` et de se connecter avec son compte RapidoCMS, puis arrête-toi.
 
 ## Outils utilisés
 

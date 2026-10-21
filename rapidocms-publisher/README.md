@@ -2,8 +2,14 @@
 
 Publier et programmer des posts Instagram, Facebook, LinkedIn et TikTok depuis Claude, en s'appuyant sur le serveur MCP **RapidoCMS**.
 
-## Prérequis
-Le connecteur **RapidoCMS** doit être connecté à votre compte Claude (claude.ai → Paramètres → Connecteurs), avec au moins un réseau social relié dans RapidoCMS.
+## Serveur MCP
+Le plugin embarque le serveur MCP RapidoCMS (`.mcp.json`) :
+
+```json
+{ "mcpServers": { "rapidocms": { "type": "http", "url": "https://cms.rapidosoftware.com/claude" } } }
+```
+
+Après installation, lancez `/mcp`, sélectionnez `rapidocms` et connectez-vous avec votre compte RapidoCMS (OAuth). Au moins un réseau social doit être relié dans RapidoCMS.
 
 ## Installation
 Depuis Claude Code :
