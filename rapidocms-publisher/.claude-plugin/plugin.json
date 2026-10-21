@@ -5,10 +5,12 @@
   "author": {
     "name": "BraindCode"
   },
-  "websiteURL": "https://rapidocms.com",
-  "supportURL": "https://rapidocms.com/contact",
-  "privacyPolicyURL": "https://rapidocms.com/confidentialite",
-  "termsOfServiceURL": "https://rapidocms.com/cgu",
+  "homepage": "https://rapidocms.com",
+  "repository": "https://github.com/cocuisinagesocial-dotcom/plugin-rapidocms-claude",
+  "documentationUrl": "https://github.com/cocuisinagesocial-dotcom/plugin-rapidocms-claude/blob/main/rapidocms-publisher/README.md",
+  "supportUrl": "https://rapidocms.com/contact",
+  "privacyPolicyUrl": "https://rapidocms.com/confidentialite",
+  "termsOfServiceUrl": "https://rapidocms.com/cgu",
   "license": "MIT",
   "icon": ".claude-plugin/icon.png",
   "keywords": ["rapidocms", "social-media", "instagram", "facebook", "linkedin", "tiktok", "publication"]
