@@ -1,0 +1,13 @@
+{
+  "name": "rapidocms",
+  "owner": {
+    "name": "BraindCode"
+  },
+  "plugins": [
+    {
+      "name": "rapidocms-publisher",
+      "source": "./rapidocms-publisher",
+      "description": "Rédiger, préparer et publier/programmer des posts Instagram, Facebook, LinkedIn et TikTok via le MCP RapidoCMS."
+    }
+  ]
+}
