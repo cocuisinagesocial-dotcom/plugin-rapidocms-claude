@@ -4,11 +4,21 @@
   "version": "1.0.0",
   "description": "Publication sur les réseaux sociaux avec RapidoCMS : rédaction adaptée à chaque réseau, médias, brouillons, programmation, calendrier et statistiques.",
   "author": {
-    "name": "BraindCode"
+    "name": "BraindCode",
+    "url": "https://rapidocms.com"
   },
   "homepage": "https://rapidocms.com",
   "repository": "https://github.com/cocuisinagesocial-dotcom/plugin-rapidocms-claude",
   "license": "MIT",
+  "keywords": ["rapidocms", "social-media", "instagram", "facebook", "linkedin", "tiktok", "publication"],
   "icon": "./.claude-plugin/icon.png",
-  "keywords": ["rapidocms", "social-media", "instagram", "facebook", "linkedin", "tiktok", "publication"]
+  "documentationUrl": "https://github.com/cocuisinagesocial-dotcom/plugin-rapidocms-claude/blob/main/rapidocms-publisher/README.md",
+  "supportUrl": "https://rapidocms.com/contact",
+  "privacyPolicyUrl": "https://rapidocms.com/confidentialite",
+  "termsOfServiceUrl": "https://rapidocms.com/cgu",
+  "defaultEnabled": true,
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "agents": ["./agents/community-manager.md"],
+  "mcpServers": "./.mcp.json"
 }
